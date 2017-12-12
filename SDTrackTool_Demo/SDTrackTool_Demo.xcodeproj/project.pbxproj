@@ -15,6 +15,10 @@
 		C3F1AF291FC6C273007232E3 /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F1AF271FC6C273007232E3 /* Page2ViewController.xib */; };
 		C3F1AF2D1FC6C3BE007232E3 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1AF2B1FC6C3BE007232E3 /* Page1ViewController.m */; };
 		C3F1AF2E1FC6C3BE007232E3 /* Page1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F1AF2C1FC6C3BE007232E3 /* Page1ViewController.xib */; };
+		C3F1AF391FC6C7B1007232E3 /* UIControl+SDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1AF301FC6C7B1007232E3 /* UIControl+SDTrackTool.m */; };
+		C3F1AF3A1FC6C7B1007232E3 /* SDTrackEvents.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F1AF311FC6C7B1007232E3 /* SDTrackEvents.plist */; };
+		C3F1AF3C1FC6C7B1007232E3 /* SDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1AF371FC6C7B1007232E3 /* SDTrackTool.m */; };
+		C3F1AF3D1FC6C7B1007232E3 /* UIViewController+ SDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1AF381FC6C7B1007232E3 /* UIViewController+ SDTrackTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,13 @@
 		C3F1AF2A1FC6C3BE007232E3 /* Page1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
 		C3F1AF2B1FC6C3BE007232E3 /* Page1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
 		C3F1AF2C1FC6C3BE007232E3 /* Page1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page1ViewController.xib; sourceTree = "<group>"; };
+		C3F1AF301FC6C7B1007232E3 /* UIControl+SDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SDTrackTool.m"; sourceTree = "<group>"; };
+		C3F1AF311FC6C7B1007232E3 /* SDTrackEvents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SDTrackEvents.plist; sourceTree = "<group>"; };
+		C3F1AF331FC6C7B1007232E3 /* SDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTrackTool.h; sourceTree = "<group>"; };
+		C3F1AF341FC6C7B1007232E3 /* UIViewController+SDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SDTrackTool.h"; sourceTree = "<group>"; };
+		C3F1AF351FC6C7B1007232E3 /* UIControl+SDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SDTrackTool.h"; sourceTree = "<group>"; };
+		C3F1AF371FC6C7B1007232E3 /* SDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTrackTool.m; sourceTree = "<group>"; };
+		C3F1AF381FC6C7B1007232E3 /* UIViewController+ SDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ SDTrackTool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 		C3F1AF0E1FC6C1F9007232E3 /* SDTrackTool_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C3F1AF2F1FC6C7B1007232E3 /* SDTrackTool */,
 				C3F1AF0F1FC6C1F9007232E3 /* AppDelegate.h */,
 				C3F1AF101FC6C1F9007232E3 /* AppDelegate.m */,
 				C3F1AF2A1FC6C3BE007232E3 /* Page1ViewController.h */,
@@ -77,6 +89,20 @@
 				C3F1AF1E1FC6C1F9007232E3 /* main.m */,
 			);
 			path = SDTrackTool_Demo;
+			sourceTree = "<group>";
+		};
+		C3F1AF2F1FC6C7B1007232E3 /* SDTrackTool */ = {
+			isa = PBXGroup;
+			children = (
+				C3F1AF311FC6C7B1007232E3 /* SDTrackEvents.plist */,
+				C3F1AF331FC6C7B1007232E3 /* SDTrackTool.h */,
+				C3F1AF371FC6C7B1007232E3 /* SDTrackTool.m */,
+				C3F1AF351FC6C7B1007232E3 /* UIControl+SDTrackTool.h */,
+				C3F1AF301FC6C7B1007232E3 /* UIControl+SDTrackTool.m */,
+				C3F1AF341FC6C7B1007232E3 /* UIViewController+SDTrackTool.h */,
+				C3F1AF381FC6C7B1007232E3 /* UIViewController+ SDTrackTool.m */,
+			);
+			path = SDTrackTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +167,7 @@
 				C3F1AF2E1FC6C3BE007232E3 /* Page1ViewController.xib in Resources */,
 				C3F1AF191FC6C1F9007232E3 /* Assets.xcassets in Resources */,
 				C3F1AF291FC6C273007232E3 /* Page2ViewController.xib in Resources */,
+				C3F1AF3A1FC6C7B1007232E3 /* SDTrackEvents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F1AF3D1FC6C7B1007232E3 /* UIViewController+ SDTrackTool.m in Sources */,
 				C3F1AF2D1FC6C3BE007232E3 /* Page1ViewController.m in Sources */,
 				C3F1AF1F1FC6C1F9007232E3 /* main.m in Sources */,
+				C3F1AF3C1FC6C7B1007232E3 /* SDTrackTool.m in Sources */,
 				C3F1AF281FC6C273007232E3 /* Page2ViewController.m in Sources */,
 				C3F1AF111FC6C1F9007232E3 /* AppDelegate.m in Sources */,
+				C3F1AF391FC6C7B1007232E3 /* UIControl+SDTrackTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
