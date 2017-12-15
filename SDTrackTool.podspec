@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SDTrackTool"
-  s.version          = "1.0.0"
+  s.version          = "0.9.0"
   s.summary          = "Track events"
   s.description      = <<-DESC
                        Track events without dirty code
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'SDTrackTool/*'
-  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+  s.frameworks = 'Foundation', 'UIKit'
 
 end
