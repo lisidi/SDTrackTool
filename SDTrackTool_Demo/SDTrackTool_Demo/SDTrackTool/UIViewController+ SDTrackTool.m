@@ -28,9 +28,9 @@
     ControlEventIDs
         exitCurrentAccount CTRL_EVENT_XYSettingViewController_LOGOUT
  2.根据当前class name 查找 是否存在事件ID
- 如果有上报
- 
+    如果则有上报
  */
+
 +(void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

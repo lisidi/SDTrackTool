@@ -1,185 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!--HMSegmentedControl的统计不需要写入plist中-->
 <dict>
-	<key>XYNoticeListViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYNoticeListViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYNoticeListViewController_LEAVE</string>
-        </dict>
-    </dict>
-	<key>XYRankViewController</key>
+	<key>XYPartApplyViewController</key>
 	<dict>
 		<key>PageEventIDs</key>
 		<dict>
 			<key>Enter</key>
-			<string>PAGE_EVENT_XYRankViewController_ENTER</string>
+			<string>PAGE_EVENT_Page1ViewController_ENTER</string>
 			<key>Leave</key>
-			<string>PAGE_EVENT_XYRankViewController_LEAVE</string>
+			<string>PAGE_EVENT_Page1ViewController_LEAVE</string>
 		</dict>
-	</dict>
-	<key>XYAttendenceViewController</key>
-	<dict>
-		<key>PageEventIDs</key>
+		<key>ControlEventIDs</key>
 		<dict>
-			<key>Enter</key>
-			<string>PAGE_EVENT_XYAttendenceViewController_ENTER</string>
-			<key>Leave</key>
-			<string>PAGE_EVENT_XYAttendenceViewController_LEAVE</string>
+			<key>clickPage1Button</key>
+			<string>CTRL_EVENT_Page1ViewController_CLICKPAGE1</string>
 		</dict>
 	</dict>
-    <key>XYLeaveViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYLeaveViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYLeaveViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYBonusListViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYBonusListViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYBonusListViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYRecycleSelectDeviceViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYRecycleSelectDeviceViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYRecycleSelectDeviceViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYAddOrderViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYAddOrderViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYAddOrderViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYOrderListViewController</key>
-    <dict>
-        <key>ControlEventIDs</key>
-        <dict>
-            <key>addNewOrder</key>
-            <string>CTRL_EVENT_XYOrderListViewController_ADD</string>
-        </dict>
-    </dict>
-    <key>XYOrderListMapViewController</key>
-    <dict>
-        <key>ControlEventIDs</key>
-        <dict>
-            <key>showTodayOrders:</key>
-            <string>CTRL_EVENT_XYOrderListMapViewController_TODAY</string>
-            <key>findUnsignedOrders:</key>
-            <string>CTRL_EVENT_XYOrderListMapViewController_UNSIGNED</string>
-            <key>showOverTimeOrders:</key>
-            <string>CTRL_EVENT_XYOrderListMapViewController_OVERTIME</string>
-        </dict>
-    </dict>
-    <key>XYSettingViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYSettingViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYSettingViewController_LEAVE</string>
-        </dict>
-        <key>ControlEventIDs</key>
-        <dict>
-            <key>exitCurrentAccount</key>
-            <string>CTRL_EVENT_XYSettingViewController_LOGOUT</string>
-        </dict>
-    </dict>
-    <key>XYAboutUsViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYAboutUsViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYAboutUsViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYMyInfoViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYMyInfoViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYMyInfoViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYPromotionBonusViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYPromotionBonusViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYPromotionBonusViewController_LEAVE</string>
-        </dict>
-    </dict>
-    <key>XYMyPartsViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYMyPartsViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYMyPartsViewController_LEAVE</string>
-        </dict>
-        <key>ControlEventIDs</key>
-        <dict>
-            <key>goTOApplyVc</key>
-            <string>CTRL_EVENT_XYMyPartsViewController_APPLY</string>
-        </dict>
-    </dict>
-    <key>XYPartApplyViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYPartApplyViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYPartApplyViewController_LEAVE</string>
-        </dict>
-        <key>ControlEventIDs</key>
-        <dict>
-            <key>selectPart</key>
-            <string>CTRL_EVENT_XYPartApplyViewController_ADD</string>
-        </dict>
-    </dict>
-    <key>XYPromotionMainViewController</key>
-    <dict>
-        <key>PageEventIDs</key>
-        <dict>
-            <key>Enter</key>
-            <string>PAGE_EVENT_XYPromotionMainViewController_ENTER</string>
-            <key>Leave</key>
-            <string>PAGE_EVENT_XYPromotionMainViewController_LEAVE</string>
-        </dict>
-    </dict>
-    
-    
-    
 </dict>
 </plist>

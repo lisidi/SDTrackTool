@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SDTrackTool.h"
 #import "Page1ViewController.h"
 
 @interface AppDelegate ()
@@ -16,6 +17,9 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [SDTrackTool configure];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UIViewController *page1ViewController = [[Page1ViewController alloc]init];
     UINavigationController* navigationController = [[UINavigationController alloc]initWithRootViewController:page1ViewController];
